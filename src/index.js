@@ -4,7 +4,7 @@ const app=express();
 
 
 app.get("/", (req,res)=>{
-    res.send("Hello From Action Test");
+    res.send("Hello Sample CI/CT Action Test");
 })
 
 app.listen(3000, ()=>{
